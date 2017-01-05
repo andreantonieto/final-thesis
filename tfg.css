@@ -1,0 +1,117 @@
+.art1 {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#258dc8+0,258dc8+40,258dc8+71,000000+100&0.65+0,0.35+40,0.2+73,0+100 */
+background: -moz-linear-gradient(top,  rgba(37,141,200,0.65) 0%, rgba(37,141,200,0.35) 40%, rgba(37,141,200,0.21) 71%, rgba(34,131,186,0.2) 73%, rgba(254,255,232,0.3) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(37,141,200,0.65) 0%,rgba(37,141,200,0.35) 40%,rgba(37,141,200,0.21) 71%,rgba(34,131,186,0.2) 73%,rgba(254,255,232,0.3) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(37,141,200,0.65) 0%,rgba(37,141,200,0.35) 40%,rgba(37,141,200,0.21) 71%,rgba(34,131,186,0.2) 73%,rgba(254,255,232,0.3) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6258dc8', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+
+
+
+height: 25%;
+width: 100%;
+margin: 0 auto;
+padding-top: 0.01%
+} 
+
+
+.art2{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,feffe8+0,feffe8+12,feffe8+28,feffe8+50,feffe8+75,feffe8+100&0+0,0.3+12,0.5+28,0.6+50,0.7+75,1+100 */
+background: -moz-linear-gradient(top,  rgba(254,255,232,0.3) 0%, rgba(254,255,232,0.3) 12%, rgba(254,255,232,0.5) 28%, rgba(254,255,232,0.6) 50%, rgba(254,255,232,0.7) 75%, rgba(254,255,232,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(254,255,232,0.3) 0%,rgba(254,255,232,0.3) 12%,rgba(254,255,232,0.5) 28%,rgba(254,255,232,0.6) 50%,rgba(254,255,232,0.7) 75%,rgba(254,255,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(254,255,232,0.3) 0%,rgba(254,255,232,0.3) 12%,rgba(254,255,232,0.5) 28%,rgba(254,255,232,0.6) 50%,rgba(254,255,232,0.7) 75%,rgba(254,255,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#feffe8',GradientType=0 ); /* IE6-9 */
+
+
+
+
+	height: 75%;
+	width: 100%;
+	padding-top: 1%
+}
+
+input[type=button]{
+	border-radius: 8px;
+    background-color: #r4285BC;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight:bold;
+}
+
+input[type=button]:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+input[type=submit]{
+    border-radius: 8px;
+    background-color: #r4285BC;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight:bold;
+}
+
+input[type=submit]:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+a{
+	size="5"; 
+	font-family: Verdana;
+}
+
+.dropbtn {
+	background-color: transparent;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	font-weight:bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #r4285BC;
+}
